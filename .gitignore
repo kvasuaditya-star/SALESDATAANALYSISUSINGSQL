@@ -1,0 +1,10 @@
+# Python caching
+__pycache__/
+*.pyc
+
+# Database files
+data/sales_data.db
+
+# Windows system files
+Thumbs.db
+Desktop.ini
