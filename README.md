@@ -1,4 +1,4 @@
-# 📊 Sales Data Analysis Using SQL - Day 3: Mock Data Generation & Seeding
+# 📊 Sales Data Analysis Using SQL - Day 4: Data Quality Assurance
 
 An end-to-end relational database analysis project designed to extract actionable business intelligence from structured sales, customer, and payment data.
 
@@ -29,4 +29,10 @@ Generate a realistic 12-month transaction history:
 ```bash
 python scripts/generate_data.py
 ```
-*Seeds the database with mock customers, products, orders, and payments.*
+
+### 3. Run Data Audit
+Validate data cleanliness, check temporal logic, and audit key constraints:
+```bash
+python scripts/run_audit.py
+```
+*Performs integrity audits across tables to verify zero orphaned rows or timing anomalies.*
